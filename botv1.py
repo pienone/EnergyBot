@@ -55,7 +55,7 @@ def get_CO2(lon,lat):
     'In gCO2/kWh: \n'+'\n'.join(text[0:n_hours])
     msg1 = 'Where you are, the carbon intensity in the next hours will be (in gCO2/kWh): \n'+'\n'.join(text[0:n_hours])
     if carbForecast.index(min(carbForecast))==0:
-        msg2= '\n\nThis means that if you do your washing machine now, instead that at '+ str(hourForecast[carbForecast.index(max(carbForecast))])+', instead of now, you could contribute saving '+ str(max(carbForecast)-carbForecast[0]) +' grams of CO2, assuming a typical consumption of 1 kWh'
+        msg2= '\n\nThis means that if you do your washing machine now, instead that at '+ str(hourForecast[carbForecast.index(max(carbForecast))])+', you could contribute saving '+ str(max(carbForecast)-carbForecast[0]) +' grams of CO2, assuming a typical consumption of 1 kWh'
     else:
         msg2= '\n\nThis means that if you do your washing machine at '+ str(hourForecast[carbForecast.index(min(carbForecast))])+', instead of now, you could contribute saving '+ str(carbForecast[0]-min(carbForecast)) +' grams of CO2 (assuming a typical consumption of 1 kWh)'
         
