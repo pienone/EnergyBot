@@ -2,6 +2,8 @@
 
 Telegram bot that tells electricity carbon intesity based on location.
 
+t.me/EnergyAPIbot
+
 The application consumes a free-tier subscription of the CO2 signal API service
 https://www.co2signal.com/
 
