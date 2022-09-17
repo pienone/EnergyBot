@@ -1,6 +1,6 @@
 # EnergyBot
 
-Telegram bot that tells electricity carbon intesity based on location.
+Telegram bot that provides average electricity carbon intesity based on location.
 
 Use at: https://t.me/EnergyAPIbot
 
